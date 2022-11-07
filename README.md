@@ -1,7 +1,7 @@
 
 
 
-![App Screenshot](https://i.postimg.cc/HkvTJZ3L/Screenshot-2022-11-07-at-10-12-48-AM.png)
+![App Screenshot](https://i.postimg.cc/c4DmYcDX/food-donation-react.png)
 
 # Food Donation React App
 
