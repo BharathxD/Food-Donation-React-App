@@ -8,7 +8,7 @@ require("dotenv").config();
 
 /* DotENV Dependency */
 
-const port = process.env.PORT;
+const port = process.env.PORT || 3001;
 
 /* Importing the payment Route */
 

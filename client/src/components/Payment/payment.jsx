@@ -27,7 +27,7 @@ function Payment() {
       order_id: data.data.id,
       handler: async (response) => {
         try {
-          const verifyUrl = "http://localhost:3001/api/payment/verify";
+          const verifyUrl = "https://food-donation-react-app.herokuapp.com/api/payment/verify";
           const { data } = await axios.post(verifyUrl, response);
           toast.promise(resolveAfter3Sec, {
             pending: "Verifying the Payment",
@@ -55,7 +55,7 @@ function Payment() {
 
   const paymentHandler = async () => {
     try {
-      const URI = "http://localhost:3001/api/payment/orders";
+      const URI = "https://food-donation-react-app.herokuapp.com/api/payment/orders";
       const data = await axios.post(URI, { amount: 3000 });
       initPayment(data.data);
     } catch (e) {
