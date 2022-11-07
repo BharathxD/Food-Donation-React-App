@@ -1,0 +1,23 @@
+:root {
+  --bg-color: rgb(67, 52, 45);
+}
+
+span,
+img {
+  background-color: var(--bg-color);
+}
+
+header {
+  padding: 10px;
+  background-color: var(--bg-color);
+  margin-bottom: 10px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  color: whitesmoke;
+  font-size: 1.75rem;
+  font-weight: 700;
+}

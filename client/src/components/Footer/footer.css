@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(42, 42, 42);
+}
+
+footer div span {
+  background-color: inherit;
+}
+
+.footer-head {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+i {
+  color: #fff;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1268px) {
+  footer {
+    flex-direction: column;
+  }
+}

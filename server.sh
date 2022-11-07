@@ -1,0 +1,9 @@
+#!/bin/bash
+
+INSTALL_DEPENDENCIES="npm install"
+CD_SERVER="cd server"
+NPM_START="npm start"
+
+$CD_SERVER
+$INSTALL_DEPENDENCIES
+$NPM_START
